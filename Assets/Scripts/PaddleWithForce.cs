@@ -27,6 +27,16 @@ public class PaddleWithForce : MonoBehaviour
             Debug.Log("Moving right");
             forceToAdd = forceToAdd + new Vector3(10,0,0);
         }
+        if(Input.GetKey(KeyCode.W))
+        {
+            Debug.Log("Moving Up");
+            forceToAdd = forceToAdd + new Vector3(0,0,10);
+        }
+        if(Input.GetKey(KeyCode.S))
+        {
+            Debug.Log("Moving right");
+            forceToAdd = forceToAdd + new Vector3(0,0,-10);
+        }
 
          paddle_rb = GetComponent<Rigidbody>();
          paddle_rb.AddForce(forceToAdd);
