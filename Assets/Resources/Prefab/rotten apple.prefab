@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4664280103998172479}
   m_Layer: 0
   m_Name: rotten apple
-  m_TagString: Untagged
+  m_TagString: RottenApple
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,7 +121,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4997155702306594692}
   serializedVersion: 5
-  m_Mass: 0.4
+  m_Mass: 0.3
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
